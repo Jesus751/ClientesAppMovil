@@ -1,0 +1,39 @@
+import { StyleSheet } from "react-native";
+export const styles = StyleSheet.create({
+    container:{
+        padding:10,
+        height:'96%',
+        width:'97%',
+    },
+    textPrincipal:{
+        textAlign:'center', 
+        fontSize:30,
+        paddingTop:3,
+        color:'#2B78E4',
+    },
+    NomPersona:{
+        flexDirection:'row',
+        paddingEnd:15,
+    },
+    nombrePersona:{
+        color:'black',
+        fontSize: 18,
+        paddingLeft:10,
+    },
+    total:{
+        flexDirection:'row-reverse', 
+    },
+    txtTotal:{
+        paddingRight:30,
+        fontSize:20,
+        color:'black',
+    },
+    estado:{
+        fontSize:20,
+        color:'#2B78E4',
+    },
+    ListCompras:{
+        width:'100%',
+        height:'87%'
+    }
+});
